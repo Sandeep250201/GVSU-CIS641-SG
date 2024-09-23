@@ -1,6 +1,11 @@
-# Team Name
+# Team Name-SG
 
-Project description (~1 paragraph)
+
+The project is about providing geolocation based on IP address that user entered as input. 
+Providing this kind of service would cost a lot. To balance the cost, as a business, would 
+incorporate ads based on interests and user history with consent. There are businesses to 
+tailor digital content for dynamic content delivery, regulatory compliance, and targeted 
+advertising.
 
 ## Team Members and Roles
 
