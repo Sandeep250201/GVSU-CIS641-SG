@@ -1,0 +1,21 @@
+## Meeting on 22-10-2024
+
+Team name: SG
+
+Members present: Sandeep, Gayatri
+
+Date: 22-10-2024
+
+Time: 2 PM
+
+Discussion points: 
+
+* Chose MongoDB as database
+* Developed a Landing Page with signUp & SignIn Page
+* Disscussed on the functional requirements implementation
+
+Goals for next week (include responsibilities)
+
+* To develop SignIn & SignUp Page
+* To create User table to handle user authentication
+* To validate the UI made so far
