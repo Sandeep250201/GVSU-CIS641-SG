@@ -1,0 +1,71 @@
+.teamList {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.listItem {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* This ensures the button appears below the card */
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Adds more of a floating effect */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures the content is well distributed */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.teamLabel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.checkbox {
+    margin-right: 10px; /* More space between checkbox and team name */
+}
+
+.teamName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-left: 8px;
+}
+
+button {
+    margin-top: 10px; /* Creates space between card and button */
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Adds a floating dialog effect */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+}
