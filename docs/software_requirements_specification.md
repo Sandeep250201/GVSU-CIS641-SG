@@ -234,14 +234,14 @@ By addressing training, integration, issue resolution, and change management, th
 
 | **Requirement ID** | **Requirement Description**               | **Use Case Diagram** | 
 |---------------------|-------------------------------------------|-----------------------|
-| R1                 | The system shall allow users to log in.  | [UC1](artifacts/UseCase_Diagrams/UC1.png)                  | 
-| R2                 | The system shall allow users to create teams. | [UC2](artifacts/UseCase_Diagrams/UC2.png)               | 
-| R3                 | The system shall allow admin to delete teams. | [UC3](artifacts/UseCase_Diagrams/UC3.png)               | 
+| R1                 | The system shall allow users to log in.  | [UC1](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC1.png)                  | 
+| R2                 | The system shall allow users to create teams. | [UC2](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC2.png)               | 
+| R3                 | The system shall allow admin to delete teams. | [UC3](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC3.png)               | 
 | R4                 | The system shall notify users of updates. | TBD                  | 
 | R5                 | The system shall maintain audit logs.    | TBD                  | 
-| R6                 | The system shall support role-based access control. | [UC4](artifacts/UseCase_Diagrams/UC4.png)           | 
-| R7                 | The system shall allow users to assign tasks. | [UC5](artifacts/UseCase_Diagrams/UC5.png)                  |
-| R8                 | The system shall allow users to leave team. | [UC6](artifacts/UseCase_Diagrams/UC6.png)                  |
+| R6                 | The system shall support role-based access control. | [UC4](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC4.png)           | 
+| R7                 | The system shall allow users to assign tasks. | [UC5](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC5.png)                  |
+| R8                 | The system shall allow users to leave team. | [UC6](https://github.com/Sandeep250201/GVSU-CIS641-SG/blob/main/artifacts/UseCase_Diagrams/UC6.png)                  |
 
 
 ## Class Diagram Traceability
