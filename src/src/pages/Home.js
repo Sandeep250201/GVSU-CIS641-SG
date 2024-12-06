@@ -6,13 +6,14 @@ import backgroundImage from './background.png';
 const useStyles = makeStyles((theme) => ({
     root: {
         height: '100vh',
-        backgroundImage: `linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(${backgroundImage})`,
-        backgroundSize: 'cover',
+        backgroundImage: `url(${backgroundImage})`,
         backgroundPosition: 'center',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         position: 'relative',
+        color: '#fff',
         padding: theme.spacing(3),
         [theme.breakpoints.down('sm')]: {
             padding: theme.spacing(2),
@@ -24,45 +25,40 @@ const useStyles = makeStyles((theme) => ({
         left: 0,
         right: 0,
         bottom: 0,
-        backgroundColor: 'rgba(0, 0, 0, 0.4)', // Smooth overlay
-        zIndex: 1,
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
     },
     content: {
-        zIndex: 2,
+        height: '300px',
+        zIndex: 1,
         textAlign: 'center',
-        padding: theme.spacing(4),
-        borderRadius: '12px',
-        backdropFilter: 'blur(8px)',
-        background: 'rgba(255, 255, 255, 0.8)',
-        boxShadow: '0px 8px 20px rgba(0, 0, 0, 0.3)', // Add depth
-        color: '#333',
+        alignContent: 'center',
+        padding: theme.spacing(2),
+        borderRadius: theme.shape.borderRadius,
+        backdropFilter: 'blur(5px)',
+        background: 'white',
+        color: 'black',
     },
     title: {
-        fontSize: '3rem',
+        fontSize: '3.5rem',
         fontWeight: 'bold',
-        color: '#1976d2',
         marginBottom: theme.spacing(2),
         [theme.breakpoints.down('sm')]: {
-            fontSize: '2rem',
+            fontSize: '2.5rem',
         },
     },
     subtitle: {
-        fontSize: '1.5rem',
+        fontSize: '1.75rem',
         marginBottom: theme.spacing(3),
-        color: '#555',
         [theme.breakpoints.down('sm')]: {
-            fontSize: '1.2rem',
+            fontSize: '1.3rem',
         },
     },
     button: {
         backgroundColor: '#1976d2',
         color: '#fff',
-        padding: theme.spacing(1.5, 5),
-        borderRadius: '30px',
+        padding: theme.spacing(1.5, 4),
+        borderRadius: '25px',
         fontSize: '1.2rem',
-        textTransform: 'uppercase',
-        fontWeight: 'bold',
-        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)', // Button shadow
         '&:hover': {
             backgroundColor: '#115293',
         },

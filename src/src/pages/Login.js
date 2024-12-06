@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'linear-gradient(to right, #33bfff, #55881b)', 
+        background: 'linear-gradient(to right, #33bfff, #55881b)',
     },
     formContainer: {
         width: '100%',
@@ -27,8 +27,8 @@ const useStyles = makeStyles((theme) => ({
     },
     formField: {
         marginBottom: '5px',
-        gap:'5px',
-        width: '100%', 
+        gap: '5px',
+        width: '100%',
     },
     registerLink: {
         marginTop: theme.spacing(2),
@@ -50,17 +50,18 @@ const Login = () => {
         try {
             const res = await axios.post('http://localhost:5001/api/auth/login', formData);
             console.log(res.data);
-            if(res.data.message === 'User logged successfully') {
-                navigate('/welcome', {state: {formData}});
+            if (res.data.message === 'User logged successfully') {
+                navigate('/welcome', { state: { formData } });
             }
         } catch (error) {
             console.error(error);
+            alert(error.response.data.message)
         }
     };
 
     return (
         <Box className={classes.root}>
-            <Container className={classes.formContainer} style={{width:'500px'}}>
+            <Container className={classes.formContainer} style={{ width: '500px' }}>
                 <Typography variant="h4" className={classes.title}>
                     Login
                 </Typography>
